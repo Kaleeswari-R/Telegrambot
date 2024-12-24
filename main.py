@@ -4,7 +4,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 TOKEN: Final = '6916487901:AAHeUE15zL5XLRIwZVURyZ7KwGRXAGrPzd0'
-BOT_USERNAME: Final = '@aaagribot'
+BOT_USERNAME: Final = '@agribot'
 
 
 async def start_cmd(update: Update, context: ContextTypes.DEFAULT_TYPE):
